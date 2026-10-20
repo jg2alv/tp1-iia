@@ -1,0 +1,25 @@
+AI_Random
+AI choose_move called with max_time_ms=3000, max_depth=8, depth_limit=8, player=1, algorithm=competition
+Competition chose column 3 with score=-16, completed_depth=8, attempted_depth=8, states_visited=13371, states_expanded=4235, cutoffs=2951, tt_hits=2790, tt_exact_hits=1655, tt_cutoffs=1077, tt_stores=10639, tt_peak_entries=5272, timed_out=False, elapsed_ms=772.720
+AI chose column 3 in 1043 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 12:01:13] "GET /ai_move?board=0000000;0000000;0000000;0000000;0000000;0000000&player=AI_Random&turn=1&max_time_ms=3000&max_depth=8 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=3000, max_depth=8, depth_limit=8, player=1, algorithm=competition
+Competition chose column 3 with score=-22, completed_depth=8, attempted_depth=8, states_visited=19056, states_expanded=5879, cutoffs=4112, tt_hits=3847, tt_exact_hits=2473, tt_cutoffs=1185, tt_stores=15398, tt_peak_entries=7049, timed_out=False, elapsed_ms=1096.716
+AI chose column 3 in 1410 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 12:01:17] "GET /ai_move?board=0000000;0000000;0000000;0000000;0002000;0001000&player=AI_Random&turn=1&max_time_ms=3000&max_depth=8 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=3000, max_depth=8, depth_limit=8, player=1, algorithm=competition
+Competition chose column 2 with score=-33, completed_depth=8, attempted_depth=8, states_visited=29705, states_expanded=9354, cutoffs=6633, tt_hits=7352, tt_exact_hits=5011, tt_cutoffs=1196, tt_stores=23498, tt_peak_entries=12447, timed_out=False, elapsed_ms=1638.253
+AI chose column 2 in 2064 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 12:01:23] "GET /ai_move?board=0000000;0000000;0002000;0001000;0002000;0001000&player=AI_Random&turn=1&max_time_ms=3000&max_depth=8 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=3000, max_depth=8, depth_limit=8, player=1, algorithm=competition
+Competition chose column 4 with score=1000005, completed_depth=8, attempted_depth=8, states_visited=4385, states_expanded=1847, cutoffs=1390, tt_hits=1069, tt_exact_hits=510, tt_cutoffs=559, tt_stores=3316, tt_peak_entries=1395, timed_out=False, elapsed_ms=247.179
+AI chose column 4 in 566 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 12:01:25] "GET /ai_move?board=0000000;0000000;0002000;0001000;0022000;0011000&player=AI_Random&turn=1&max_time_ms=3000&max_depth=8 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=3000, max_depth=8, depth_limit=8, player=1, algorithm=competition
+Competition chose column 1 with score=immediate_win, completed_depth=0, attempted_depth=0, states_visited=0, states_expanded=0, cutoffs=0, tt_hits=0, tt_exact_hits=0, tt_cutoffs=0, tt_stores=0, tt_peak_entries=0, timed_out=False, elapsed_ms=0.113
+AI chose column 1 in 355 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 12:01:29] "GET /ai_move?board=0000000;0000000;0002000;0001000;0022000;0011120&player=AI_Random&turn=1&max_time_ms=3000&max_depth=8 HTTP/1.1" 200 -

@@ -1,0 +1,145 @@
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 3 with score=-2, target_depth=4, search_completed=True, root_children_completed=7, states_visited=189, cutoffs=60, timed_out=False, elapsed_ms=9.475
+AI chose column 3 in 327 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 10:59:58] "GET /ai_move?board=0000000;0000000;0000000;0000000;0000000;0000000&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 1 with score=-43, depth=4, states_visited=2801, cutoffs=0, elapsed_ms=190.437
+AI chose column 1 in 417 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 10:59:58] "GET /ai_move?board=0000000;0000000;0000000;0000000;0000000;0001000&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 4 with score=11, target_depth=4, search_completed=True, root_children_completed=7, states_visited=373, cutoffs=83, timed_out=False, elapsed_ms=24.080
+AI chose column 4 in 252 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 10:59:59] "GET /ai_move?board=0000000;0000000;0000000;0000000;0000000;0201000&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 5 with score=-79, depth=4, states_visited=2801, cutoffs=0, elapsed_ms=186.040
+AI chose column 5 in 414 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 10:59:59] "GET /ai_move?board=0000000;0000000;0000000;0000000;0000000;0201100&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 3 with score=0, target_depth=4, search_completed=True, root_children_completed=7, states_visited=228, cutoffs=64, timed_out=False, elapsed_ms=13.020
+AI chose column 3 in 241 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 10:59:59] "GET /ai_move?board=0000000;0000000;0000000;0000000;0000000;0201120&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 4 with score=-83, depth=4, states_visited=2801, cutoffs=0, elapsed_ms=195.646
+AI chose column 4 in 432 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:00] "GET /ai_move?board=0000000;0000000;0000000;0000000;0001000;0201120&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 3 with score=33, target_depth=4, search_completed=True, root_children_completed=7, states_visited=139, cutoffs=59, timed_out=False, elapsed_ms=5.700
+AI chose column 3 in 230 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:00] "GET /ai_move?board=0000000;0000000;0000000;0000000;0001200;0201120&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 3 with score=-90, depth=4, states_visited=2464, cutoffs=0, elapsed_ms=155.070
+AI chose column 3 in 378 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:00] "GET /ai_move?board=0000000;0000000;0000000;0001000;0001200;0201120&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 4 with score=29, target_depth=4, search_completed=True, root_children_completed=7, states_visited=473, cutoffs=81, timed_out=False, elapsed_ms=30.060
+AI chose column 4 in 271 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:01] "GET /ai_move?board=0000000;0000000;0002000;0001000;0001200;0201120&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 4 with score=-114, depth=4, states_visited=2774, cutoffs=0, elapsed_ms=203.454
+AI chose column 4 in 435 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:01] "GET /ai_move?board=0000000;0000000;0002000;0001100;0001200;0201120&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 3 with score=11, target_depth=4, search_completed=True, root_children_completed=7, states_visited=417, cutoffs=85, timed_out=False, elapsed_ms=27.302
+AI chose column 3 in 266 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:01] "GET /ai_move?board=0000000;0000000;0002200;0001100;0001200;0201120&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 2 with score=-111, depth=4, states_visited=2514, cutoffs=0, elapsed_ms=182.973
+AI chose column 2 in 425 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:02] "GET /ai_move?board=0000000;0001000;0002200;0001100;0001200;0201120&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 4 with score=40, target_depth=4, search_completed=True, root_children_completed=7, states_visited=370, cutoffs=76, timed_out=False, elapsed_ms=22.533
+AI chose column 4 in 251 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:02] "GET /ai_move?board=0000000;0001000;0002200;0001100;0001200;0221120&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 3 with score=-134, depth=4, states_visited=2285, cutoffs=0, elapsed_ms=165.429
+AI chose column 3 in 400 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:03] "GET /ai_move?board=0000000;0001100;0002200;0001100;0001200;0221120&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 4 with score=41, target_depth=4, search_completed=True, root_children_completed=6, states_visited=290, cutoffs=74, timed_out=False, elapsed_ms=16.516
+AI chose column 4 in 249 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:03] "GET /ai_move?board=0002000;0001100;0002200;0001100;0001200;0221120&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 6 with score=-146, depth=4, states_visited=781, cutoffs=0, elapsed_ms=53.025
+AI chose column 6 in 282 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:03] "GET /ai_move?board=0002100;0001100;0002200;0001100;0001200;0221120&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 1 with score=52, target_depth=4, search_completed=True, root_children_completed=5, states_visited=375, cutoffs=72, timed_out=False, elapsed_ms=21.021
+AI chose column 1 in 248 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:03] "GET /ai_move?board=0002100;0001100;0002200;0001100;0001200;0221122&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 6 with score=-714, depth=4, states_visited=781, cutoffs=0, elapsed_ms=50.953
+AI chose column 6 in 277 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:04] "GET /ai_move?board=0002100;0001100;0002200;0001100;0101200;0221122&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 6 with score=99, target_depth=4, search_completed=True, root_children_completed=5, states_visited=375, cutoffs=45, timed_out=False, elapsed_ms=24.419
+AI chose column 6 in 284 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:04] "GET /ai_move?board=0002100;0001100;0002200;0001100;0101202;0221122&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 1 with score=-785, depth=4, states_visited=750, cutoffs=0, elapsed_ms=48.089
+AI chose column 1 in 292 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:04] "GET /ai_move?board=0002100;0001100;0002200;0001101;0101202;0221122&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 1 with score=117, target_depth=4, search_completed=True, root_children_completed=5, states_visited=198, cutoffs=42, timed_out=False, elapsed_ms=11.494
+AI chose column 1 in 238 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:04] "GET /ai_move?board=0002100;0001100;0002200;0201101;0101202;0221122&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 1 with score=-787, depth=4, states_visited=702, cutoffs=0, elapsed_ms=39.145
+AI chose column 1 in 268 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:05] "GET /ai_move?board=0002100;0001100;0102200;0201101;0101202;0221122&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 1 with score=147, target_depth=4, search_completed=True, root_children_completed=5, states_visited=226, cutoffs=57, timed_out=False, elapsed_ms=11.702
+AI chose column 1 in 238 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:05] "GET /ai_move?board=0002100;0201100;0102200;0201101;0101202;0221122&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 6 with score=-848, depth=4, states_visited=300, cutoffs=0, elapsed_ms=14.433
+AI chose column 6 in 242 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:05] "GET /ai_move?board=0102100;0201100;0102200;0201101;0101202;0221122&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 6 with score=137, target_depth=4, search_completed=True, root_children_completed=4, states_visited=133, cutoffs=31, timed_out=False, elapsed_ms=7.026
+AI chose column 6 in 235 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:05] "GET /ai_move?board=0102100;0201100;0102202;0201101;0101202;0221122&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 0 with score=-1000000, depth=4, states_visited=225, cutoffs=0, elapsed_ms=8.923
+AI chose column 0 in 236 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:06] "GET /ai_move?board=0102100;0201101;0102202;0201101;0101202;0221122&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 2 with score=1000001, target_depth=4, search_completed=True, root_children_completed=4, states_visited=46, cutoffs=14, timed_out=False, elapsed_ms=1.892
+AI chose column 2 in 227 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:06] "GET /ai_move?board=0102100;0201101;0102202;0201101;0101202;2221122&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Dummy
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=2, algorithm=minimax
+Minimax chose column 2 with score=-1000002, depth=4, states_visited=144, cutoffs=0, elapsed_ms=5.346
+AI chose column 2 in 237 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:06] "GET /ai_move?board=0102100;0201101;0102202;0201101;0111202;2221122&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=4, depth_limit=4, player=1, algorithm=alpha_beta
+AlphaBeta chose column 0 with score=1000003, target_depth=4, search_completed=True, root_children_completed=4, states_visited=78, cutoffs=14, timed_out=False, elapsed_ms=4.742
+AI chose column 0 in 237 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 11:00:06] "GET /ai_move?board=0102100;0201101;0102202;0221101;0111202;2221122&player=AI_Random&turn=1&max_time_ms=30000&max_depth=4 HTTP/1.1" 200 -

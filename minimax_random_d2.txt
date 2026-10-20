@@ -1,0 +1,32 @@
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=2, depth_limit=2, player=1, algorithm=minimax
+Minimax chose column 3 with score=-3, depth=2, states_visited=57, cutoffs=0, elapsed_ms=3.802
+AI chose column 3 in 438 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 10:53:05] "GET /ai_move?board=0000000;0000000;0000000;0000000;0000000;0000000&player=AI_Random&turn=1&max_time_ms=30000&max_depth=2 HTTP/1.1" 200 -
+AI_Dummy
+Random chose column 6, states_visited=0, elapsed_ms=0.012
+AI chose column 6 in 230 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 10:53:06] "GET /ai_move?board=0000000;0000000;0000000;0000000;0000000;0001000&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=2 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=2, depth_limit=2, player=1, algorithm=minimax
+Minimax chose column 2 with score=17, depth=2, states_visited=57, cutoffs=0, elapsed_ms=4.155
+AI chose column 2 in 230 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 10:53:06] "GET /ai_move?board=0000000;0000000;0000000;0000000;0000000;0001002&player=AI_Random&turn=1&max_time_ms=30000&max_depth=2 HTTP/1.1" 200 -
+AI_Dummy
+Random chose column 3, states_visited=0, elapsed_ms=0.009
+AI chose column 3 in 226 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 10:53:06] "GET /ai_move?board=0000000;0000000;0000000;0000000;0000000;0011002&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=2 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=2, depth_limit=2, player=1, algorithm=minimax
+Minimax chose column 4 with score=493, depth=2, states_visited=57, cutoffs=0, elapsed_ms=3.918
+AI chose column 4 in 232 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 10:53:06] "GET /ai_move?board=0000000;0000000;0000000;0000000;0002000;0011002&player=AI_Random&turn=1&max_time_ms=30000&max_depth=2 HTTP/1.1" 200 -
+AI_Dummy
+Random chose column 4, states_visited=0, elapsed_ms=0.010
+AI chose column 4 in 224 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 10:53:07] "GET /ai_move?board=0000000;0000000;0000000;0000000;0002000;0011102&player=AI_Dummy&turn=2&max_time_ms=30000&max_depth=2 HTTP/1.1" 200 -
+AI_Random
+AI choose_move called with max_time_ms=30000, max_depth=2, depth_limit=2, player=1, algorithm=minimax
+Minimax chose column 1 with score=1000001, depth=2, states_visited=43, cutoffs=0, elapsed_ms=4.110
+AI chose column 1 in 231 ms. Info: {'method': 'AI'}
+127.0.0.1 - - [13/Oct/2026 10:53:07] "GET /ai_move?board=0000000;0000000;0000000;0000000;0002200;0011102&player=AI_Random&turn=1&max_time_ms=30000&max_depth=2 HTTP/1.1" 200 -
